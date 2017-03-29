@@ -1,0 +1,16 @@
+méthodes:
+
+connect():gere la connection a la bdd
+update(clé,valeur) : met a jour la clé en parametre selon la valeur passé en parametre (a faire avec un switch)
+getuser(mail) : recupere l'utilisateur selon le mail passé en parametre
+getproduct(id) : recupere le logiciel selon son id passé en parametre
+read(table,n) : recupere les n entreés de la table passé en parametre
+put(table,instance) : insert l'instance passé en parametre dans la table passée en parametre (switch pour differencier les insertion selon la table).
+createUser(utilisateur) : insert dans la table utilisateur l'instance utilisateur passé en parametres
+
+
+rowInsert($table,$array_data)//array_data pour insertion
+rowUpdate($table,$array_data,$where_clause)// array_data pour insertion
+getTable($table)
+rowDelete($table,$array_data)//array_data pour les conditions
+rowSelect($table,$array_data)//array_data pour les conditions
